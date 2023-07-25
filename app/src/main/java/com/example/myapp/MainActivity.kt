@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
         editor.putString("USERNAME",userName)
         editor.putString("PASSWORD",passWord)
         editor.apply()
-
     }
     private fun initViews() {
         editTextUsername = findViewById(R.id.editTextUsername)
